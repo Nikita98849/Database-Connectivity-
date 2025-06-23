@@ -1,0 +1,11 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee" version="5.0">
+    <servlet>
+        <servlet-name>LoginRegisterServlet</servlet-name>
+        <servlet-class>com.example.LoginRegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginRegisterServlet</servlet-name>
+        <url-pattern>/user</url-pattern>
+    </servlet-mapping>
+</web-app>
